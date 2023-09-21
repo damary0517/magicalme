@@ -1,0 +1,121 @@
+body {
+	 background-color:lavender;
+  font-family:'Montserrat';
+  font-weight: 300;
+	 margin: 1rem auto;
+	 max-width: 80rem;
+  font-size: 19px;
+}
+
+  h1 {
+    color:mediumslateblue; 
+	 text-align: center;
+	 margin-bottom: 1rem;
+   font-size: 8rem;
+   font-family: 'Croissant One';
+   font-weight: 100;
+}
+
+h2 {
+  color:mediumslateblue;
+  font-family: 'Dancing Script';
+  text-align: center;
+  font-size: 2rem; 
+}
+h3 {
+    color:mediumpurple; 
+	 text-align:center;
+  font-weight: 700;
+   font-size: 2rem;
+}
+
+h4 {
+    color:mediumpurple; 
+	 text-align:center;
+   font-weight: 700;
+   font-size: 2rem;
+}
+
+h5 {
+    color:mediumpurple; 
+	 text-align:center;
+   font-size: 2rem;
+}
+
+
+/*Custom Cursor Images https://codepen.io/fmressel/pen/djwvJVLinks to an external site.  Search for Unicode using https://emojipedia.org/Links to an external site.  and replace characters before .png*/
+
+/*Bubbles*/
+.bubbles {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1fae7.png) 36 36, auto;
+}
+
+/*Blue Fish*/ 
+.bluefish {
+  cursor: 
+url(https://abs.twimg.com/emoji/v2/72x72/1f41f.png) 36 36, auto;
+}
+
+/*microscope*/ 
+.microscope {
+  cursor: 
+url(https://abs.twimg.com/emoji/v2/72x72/1f52c.png) 36 36, auto;
+}
+
+/*loveletter*/
+.loveletter{
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f48c.png) 36 36, auto;
+}
+
+section{
+  display: flex;
+}
+
+ .tooltiptext {
+ visibility: hidden;
+   font-weight: 500;
+}
+
+.fish:hover .tooltiptext{
+  visibility: visible;
+}
+
+.school:hover .tooltiptext{
+  visibility: visible;
+}
+
+.study:hover .tooltiptext{
+  visibility: visible;
+}
+
+figure{
+  align-self: flex-start; 
+  display: flex; 
+  top: 3rem;
+  position: sticky;  
+}
+
+button {
+  background-color: skyblue;; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.tooltiptext {
+  visibility: hidden;
+  width: 400px;
+  color: mediumpurple;
+  text-align: left;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -250px;
+}
